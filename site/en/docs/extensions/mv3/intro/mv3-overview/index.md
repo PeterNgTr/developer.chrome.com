@@ -33,7 +33,7 @@ webbiness.
 
 This article summarizes the features and major changes introduced by Manifest V3. For
 help migrating Manifest V2 extensions to Manifest V3, or to better understand the
-architectural impact of these changes, see also the [Manifest V3 migration
+architectural effect of these changes, see also the [Manifest V3 migration
 guide](/docs/extensions/mv3/intro/mv3-migration/).
 
 Manifest V3 is available beginning with Chrome
@@ -60,7 +60,7 @@ Each of these changes is summarized in the sections below.
 
 ## Major features {: #major-features }
 
-This section introduces the most important and impactful features of Manifest V3.
+This section introduces the most important and influential features of Manifest V3.
 
 
 ### Service workers {: #service-workers }
@@ -132,7 +132,7 @@ can defer this part of your migration until you're ready, or begin using
 promises immediately.
 
 Some scenarios, such as event listeners, will still require callbacks. For
-information on using promises, see [Promises on MDN][3]. For information on 
+information on using promises, see [Promises on MDN][3]. For information on
 converting callbacks to promises, see [our own article][4].
 
 
@@ -156,5 +156,5 @@ Look for announcements of these and other Manifest V3 features as they become av
 
 [1]: /docs/extensions/reference/scripting/
 [2]: /docs/extensions/reference/storage/#property-session
-[3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[3]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [4]: /docs/extensions/mv3/promises#compare-to-callback
